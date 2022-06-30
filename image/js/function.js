@@ -12,33 +12,8 @@ function bmi() {
                 `YOUR BMI IS Normal : <span>${bmi}</span>`;
   
         else result.innerHTML =
-            `YOUR BMI IS Over Weight : <span>${bmi}</span>`;
+            `YOUR BMI IS Over Weight() : <span>${bmi}</span>`;
 }
-
-
-// function bmi(weight, height) {
-//   var height = document.getElementById("height").value;
-//  var weight =  document.getElementById("height").value;
-//   var bmi = weight/Math.pow(height,2) ;
-//   var total = bmi;
-//   document.getElementById("result").innerHTML = "your BMI index = " + total;
-  
-//     if (result <= 18.5) 
-//     {return "Underweight";}
-
-// else if (result <= 25.0 )
-// {return "Normal";}
-
-// else if (result <= 30.0)
-//   {return "Overweight";}
-
-// else
-//   {return "Obese";}
-// }
-
-
-
-
 function FEET() {
   var f = document.getElementById("feet").value;
   var FEET = f * 12;
@@ -63,5 +38,5 @@ function details() {
   // var details = n + a ;
   // var total =details;
 
-  document.getElementById("result3").innerHTML = "HEY HI " + n + "! " + length('t') + " your birthday is on  " + d;
+  document.getElementById("result3").innerHTML = "HEY HI " + n + "! " +"your age is "+a + " your birthday is on  " + d;
 }
