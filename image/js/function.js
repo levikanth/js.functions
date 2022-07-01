@@ -1,10 +1,11 @@
 
 function bmi() {
-  var h = document.getElementById("height").value;
-  var w = document.getElementById("weight").value;
+  var h = parseInt(document.getElementById("height").value);
+  var w = parseInt (document.getElementById("weight").value);
   var bmi = w / (h / 100 * h / 100);
   var total = bmi;
   document.getElementById("result").innerHTML = "your BMI index = " + total;
+ 
   if (bmi < 18.6) 
   result.innerHTML =`YOUR BMI IS Under Weight i.e : <span>${bmi}</span>`;
   else if (bmi >= 18.6 && bmi < 24.9) 
